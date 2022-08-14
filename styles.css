@@ -256,6 +256,12 @@ section {
 .about-stats .progress-bars .progress-bar .progress-con .progress .cpp {
   width: 70%;
 }
+.about-stats .progress-bars .progress-bar .progress-con .progress .react {
+  width: 50%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .bootstrap {
+  width: 30%;
+}
 .about-stats .progress-bars .progress-bar .progress-con .progress .java {
   width: 80%;
 }
