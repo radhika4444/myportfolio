@@ -6,12 +6,12 @@ if(isset($_POST['txt_name'])){
    $password="";
    $con=mysqli_connect($server,$username,$password);
 
-   if(!$con){
+   /*if(!$con){
       //echo "failed connecting to the db due to ".mysqli_connect_error();
      }
      else{
       //echo "success connecting to the db  ";
-     }
+     }*/
 
     $name=$_POST['txt_name'];
     $email=$_POST['txt_email'];
