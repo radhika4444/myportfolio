@@ -1,14 +1,10 @@
 <?php
-<<<<<<< HEAD
 $insert = false;
 if(isset($_POST['txt_name'])){ 
-=======
->>>>>>> 372f2d2ef126bb0b68e80ad6ef5fe6b40f4d7783
    $server="localhost";
    $username="root";
    $password="";
    $con=mysqli_connect($server,$username,$password);
-<<<<<<< HEAD
 
    if(!$con){
       //echo "failed connecting to the db due to ".mysqli_connect_error();
